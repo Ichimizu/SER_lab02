@@ -32,6 +32,5 @@ public class Case implements ConvertissableEnPGN {
 
         // TODO : A compléter... (vous pouvez retirer le return null)
         return null;
-
     }
 }

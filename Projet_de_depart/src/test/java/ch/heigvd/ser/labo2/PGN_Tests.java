@@ -135,9 +135,7 @@ public class PGN_Tests {
             } catch(Throwable t) {
                 collector.addError(t);
             }
-
         }
-
     }
 
     @Test
