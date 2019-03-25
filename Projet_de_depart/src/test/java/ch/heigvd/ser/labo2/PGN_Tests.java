@@ -77,7 +77,7 @@ public class PGN_Tests {
             for(int i = 1; i <= 8; ++i) {
                 for(char c = 'a'; c <= 'h'; ++c) {
 
-                    Case depart = pieceDeplacee.equals(TypePiece.Pion) ? new Case('b', 5) : null;
+                    Case depart = null;
                     Case arrivee = new Case(c, i);
 
                     Deplacement deplacement = new Deplacement(pieceDeplacee, null, null, null, depart, arrivee);
